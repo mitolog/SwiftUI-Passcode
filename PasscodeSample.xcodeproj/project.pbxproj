@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		464DE0F527FAF71A00A6AAD3 /* PasscodeSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464DE0F427FAF71A00A6AAD3 /* PasscodeSampleApp.swift */; };
-		464DE0F727FAF71A00A6AAD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464DE0F627FAF71A00A6AAD3 /* ContentView.swift */; };
 		464DE0F927FAF71C00A6AAD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464DE0F827FAF71C00A6AAD3 /* Assets.xcassets */; };
 		464DE0FC27FAF71C00A6AAD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464DE0FB27FAF71C00A6AAD3 /* Preview Assets.xcassets */; };
 		464DE10627FAF71C00A6AAD3 /* PasscodeSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464DE10527FAF71C00A6AAD3 /* PasscodeSampleTests.swift */; };
 		464DE11027FAF71C00A6AAD3 /* PasscodeSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464DE10F27FAF71C00A6AAD3 /* PasscodeSampleUITests.swift */; };
 		464DE11227FAF71C00A6AAD3 /* PasscodeSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464DE11127FAF71C00A6AAD3 /* PasscodeSampleUITestsLaunchTests.swift */; };
+		464DE12C27FAF76800A6AAD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464DE11F27FAF76700A6AAD3 /* AppDelegate.swift */; };
+		464DE13027FAF76800A6AAD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464DE12427FAF76700A6AAD3 /* SceneDelegate.swift */; };
+		464DE13827FB093B00A6AAD3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464DE13A27FB093B00A6AAD3 /* Launch Screen.storyboard */; };
+		46897D0B27FB12E500B0AD64 /* Second.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46897D0927FB12E500B0AD64 /* Second.swift */; };
+		46897D0C27FB12E500B0AD64 /* First.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46897D0A27FB12E500B0AD64 /* First.swift */; };
+		46897D0F27FB12F400B0AD64 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46897D0D27FB12F400B0AD64 /* AppState.swift */; };
+		46897D1027FB12F400B0AD64 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46897D0E27FB12F400B0AD64 /* Store.swift */; };
+		46C8479327FB173B00CB7BCB /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C8478E27FB173B00CB7BCB /* CancelBag.swift */; };
+		46C8479527FB173B00CB7BCB /* PassThroughWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C8479027FB173B00CB7BCB /* PassThroughWindow.swift */; };
+		46C8479927FB176B00CB7BCB /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C8479727FB176A00CB7BCB /* PasscodeView.swift */; };
+		46C8479A27FB176B00CB7BCB /* PasscodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C8479827FB176B00CB7BCB /* PasscodeViewModel.swift */; };
+		46C8479C27FB17A300CB7BCB /* PasscodeField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C8479B27FB17A300CB7BCB /* PasscodeField.swift */; };
+		46C8479E27FB17E100CB7BCB /* LegacyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C8479D27FB17E100CB7BCB /* LegacyTextField.swift */; };
+		46C847A027FB184200CB7BCB /* ShakeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C8479F27FB184200CB7BCB /* ShakeAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4647DBCE27FB0D4C0085BEA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 		464DE0F127FAF71A00A6AAD3 /* PasscodeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasscodeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		464DE0F427FAF71A00A6AAD3 /* PasscodeSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeSampleApp.swift; sourceTree = "<group>"; };
-		464DE0F627FAF71A00A6AAD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		464DE0F827FAF71C00A6AAD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		464DE0FB27FAF71C00A6AAD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		464DE10127FAF71C00A6AAD3 /* PasscodeSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasscodeSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +55,20 @@
 		464DE10B27FAF71C00A6AAD3 /* PasscodeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasscodeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		464DE10F27FAF71C00A6AAD3 /* PasscodeSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeSampleUITests.swift; sourceTree = "<group>"; };
 		464DE11127FAF71C00A6AAD3 /* PasscodeSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		464DE11F27FAF76700A6AAD3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		464DE12427FAF76700A6AAD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		464DE13B27FB095300A6AAD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46897D0927FB12E500B0AD64 /* Second.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Second.swift; sourceTree = "<group>"; };
+		46897D0A27FB12E500B0AD64 /* First.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = First.swift; sourceTree = "<group>"; };
+		46897D0D27FB12F400B0AD64 /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		46897D0E27FB12F400B0AD64 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		46C8478E27FB173B00CB7BCB /* CancelBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
+		46C8479027FB173B00CB7BCB /* PassThroughWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassThroughWindow.swift; sourceTree = "<group>"; };
+		46C8479727FB176A00CB7BCB /* PasscodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
+		46C8479827FB176B00CB7BCB /* PasscodeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeViewModel.swift; sourceTree = "<group>"; };
+		46C8479B27FB17A300CB7BCB /* PasscodeField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasscodeField.swift; sourceTree = "<group>"; };
+		46C8479D27FB17E100CB7BCB /* LegacyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegacyTextField.swift; sourceTree = "<group>"; };
+		46C8479F27FB184200CB7BCB /* ShakeAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +119,17 @@
 		464DE0F327FAF71A00A6AAD3 /* PasscodeSample */ = {
 			isa = PBXGroup;
 			children = (
-				464DE0F427FAF71A00A6AAD3 /* PasscodeSampleApp.swift */,
-				464DE0F627FAF71A00A6AAD3 /* ContentView.swift */,
+				464DE11F27FAF76700A6AAD3 /* AppDelegate.swift */,
+				464DE12427FAF76700A6AAD3 /* SceneDelegate.swift */,
+				46897D0D27FB12F400B0AD64 /* AppState.swift */,
+				46897D0E27FB12F400B0AD64 /* Store.swift */,
+				46C8478E27FB173B00CB7BCB /* CancelBag.swift */,
+				46C8479027FB173B00CB7BCB /* PassThroughWindow.swift */,
+				46C847A227FB668D00CB7BCB /* Passcode */,
+				46897D0827FB12E500B0AD64 /* UI */,
+				464DE13B27FB095300A6AAD3 /* Info.plist */,
 				464DE0F827FAF71C00A6AAD3 /* Assets.xcassets */,
+				464DE13A27FB093B00A6AAD3 /* Launch Screen.storyboard */,
 				464DE0FA27FAF71C00A6AAD3 /* Preview Content */,
 			);
 			path = PasscodeSample;
@@ -125,6 +158,35 @@
 				464DE11127FAF71C00A6AAD3 /* PasscodeSampleUITestsLaunchTests.swift */,
 			);
 			path = PasscodeSampleUITests;
+			sourceTree = "<group>";
+		};
+		46897D0827FB12E500B0AD64 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				46C847A127FB615900CB7BCB /* PasscodeView */,
+				46897D0927FB12E500B0AD64 /* Second.swift */,
+				46897D0A27FB12E500B0AD64 /* First.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		46C847A127FB615900CB7BCB /* PasscodeView */ = {
+			isa = PBXGroup;
+			children = (
+				46C8479727FB176A00CB7BCB /* PasscodeView.swift */,
+				46C8479827FB176B00CB7BCB /* PasscodeViewModel.swift */,
+			);
+			path = PasscodeView;
+			sourceTree = "<group>";
+		};
+		46C847A227FB668D00CB7BCB /* Passcode */ = {
+			isa = PBXGroup;
+			children = (
+				46C8479B27FB17A300CB7BCB /* PasscodeField.swift */,
+				46C8479D27FB17E100CB7BCB /* LegacyTextField.swift */,
+				46C8479F27FB184200CB7BCB /* ShakeAnimation.swift */,
+			);
+			path = Passcode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +257,7 @@
 				TargetAttributes = {
 					464DE0F027FAF71A00A6AAD3 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 					464DE10027FAF71C00A6AAD3 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -231,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				464DE13827FB093B00A6AAD3 /* Launch Screen.storyboard in Resources */,
 				464DE0FC27FAF71C00A6AAD3 /* Preview Assets.xcassets in Resources */,
 				464DE0F927FAF71C00A6AAD3 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +321,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				464DE0F727FAF71A00A6AAD3 /* ContentView.swift in Sources */,
-				464DE0F527FAF71A00A6AAD3 /* PasscodeSampleApp.swift in Sources */,
+				46C8479A27FB176B00CB7BCB /* PasscodeViewModel.swift in Sources */,
+				46C8479C27FB17A300CB7BCB /* PasscodeField.swift in Sources */,
+				46897D0F27FB12F400B0AD64 /* AppState.swift in Sources */,
+				464DE12C27FAF76800A6AAD3 /* AppDelegate.swift in Sources */,
+				46C8479327FB173B00CB7BCB /* CancelBag.swift in Sources */,
+				46C8479527FB173B00CB7BCB /* PassThroughWindow.swift in Sources */,
+				46C8479E27FB17E100CB7BCB /* LegacyTextField.swift in Sources */,
+				46C847A027FB184200CB7BCB /* ShakeAnimation.swift in Sources */,
+				46897D0B27FB12E500B0AD64 /* Second.swift in Sources */,
+				46897D1027FB12F400B0AD64 /* Store.swift in Sources */,
+				46C8479927FB176B00CB7BCB /* PasscodeView.swift in Sources */,
+				464DE13027FAF76800A6AAD3 /* SceneDelegate.swift in Sources */,
+				46897D0C27FB12E500B0AD64 /* First.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +368,17 @@
 			targetProxy = 464DE10C27FAF71C00A6AAD3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		464DE13A27FB093B00A6AAD3 /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4647DBCE27FB0D4C0085BEA2 /* Base */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		464DE11327FAF71C00A6AAD3 /* Debug */ = {
@@ -346,7 +432,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -401,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -416,14 +502,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PasscodeSample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = PasscodeSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PasscodeSample;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = "Launch Screen";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "armv7 arm64";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -434,6 +526,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.PasscodeSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -444,14 +537,20 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PasscodeSample/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = PasscodeSample/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PasscodeSample;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UIMainStoryboardFile = "Launch Screen";
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "armv7 arm64";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
